@@ -1,25 +1,16 @@
 
+body { background: #0d1424 url(../images/body-bg.jpg) no-repeat center top; }
+
 .white { color: white; }
 
 .post-title { color: black }
 
 .tnr { font-family: "Times New Roman", Times, serif;}
 
-.flickr_badge_image {
-	margin-top: 10px;
-}
-.flickr_badge_image {
-	width: 48px;
-	height: 48px;
-	margin-right: 12px;
-	margin-bottom: 12px;
-	float: left;
-}
-
 .widget {
-  background: #fff;
+	background: #fff;
 	margin: 0 0 30px;
-	padding: 10px 15px;
+	padding: 10px 20px;
 	/* rounded corner */
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
@@ -30,4 +21,19 @@
 	box-shadow: 0 1px 3px rgba(0,0,0,.4);
 }
 
+.widget .flickr_badge_image {
+	margin-top: 10px;
+}
+.widget .flickr_badge_image img {
+	width: 48px;
+	height: 48px;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	float: left;
+}
+
 .margin-left { margin-left: 5px; }
+
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; zoom: 1; }
