@@ -1,0 +1,33 @@
+
+.white { color: white; }
+
+.post-title { color: black }
+
+.tnr { font-family: "Times New Roman", Times, serif;}
+
+.flickr_badge_image {
+	margin-top: 10px;
+}
+.flickr_badge_image {
+	width: 48px;
+	height: 48px;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	float: left;
+}
+
+.widget {
+  background: #fff;
+	margin: 0 0 30px;
+	padding: 10px 15px;
+	/* rounded corner */
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/* box shadow */
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+
+.margin-left { margin-left: 5px; }
